@@ -22,25 +22,25 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "EaseMeds transformed our procurement process. The blind RFQ system protected our supplier relationships, and the automated compliance checks saved us countless hours. It's a true strategic partner.",
+        "EaseMed transformed our procurement process. The S2P automation eliminated 80% of our manual workload, and the intelligent compliance system saved us countless hours. It's a true strategic partner for healthcare operations.",
       name: "Marcus Rodriguez",
-      company: "Head of Procurement, European Pharma Group",
+      company: "Head of Procurement, European Healthcare Group",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
     },
     {
       quote:
-        "The AI-powered quote analysis gives us complete visibility across all suppliers. We can now make faster decisions with confidence, knowing every option has been thoroughly vetted.",
+        "The AI-powered S2P system gives us complete visibility across all suppliers. We can now make faster decisions with confidence, knowing every option has been thoroughly vetted and compliant.",
       name: "Dr. Sarah Chen",
-      company: "Procurement Director, MediSupply Corp",
+      company: "Procurement Director, Regional Hospital Network",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
     },
     {
       quote:
-        "The automated compliance engine caught issues we never would have spotted manually. It's not just about efficiency—it's about reducing risk in our supply chain.",
+        "The automated compliance engine caught issues we never would have spotted manually. It's not just about efficiency—it's about reducing risk across our entire healthcare supply chain.",
       name: "James Marshall",
-      company: "CEO, PharmaLink Solutions",
+      company: "CEO, Healthcare Supply Group",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
     },

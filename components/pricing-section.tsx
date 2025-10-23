@@ -45,14 +45,14 @@ export default function PricingSection() {
 
           {/* Title */}
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Simple, transparent pricing
+            Custom Development Solutions
           </div>
 
           {/* Description */}
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Choose the plan that matches your procurement needs. All plans include our core AI-powered features
+            Custom S2P solutions designed for healthcare organizations. Each project includes full automation of procurement workflows
             <br />
-            with different levels of customization and support.
+            with enterprise-grade customization and dedicated development support.
           </div>
         </div>
       </div>
@@ -125,14 +125,14 @@ export default function PricingSection() {
 
           {/* Pricing Cards Container */}
           <div className="flex-1 flex flex-col md:flex-row justify-center items-center gap-6 py-12 md:py-0">
-            {/* Essential Plan */}
+            {/* S2P Foundation Plan */}
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 border border-[rgba(50,45,43,0.12)] border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12 bg-white">
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Essential</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">S2P Foundation</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Perfect for small wholesalers ready to automate compliance and streamline their first RFQs.
+                    Entry-level S2P automation for healthcare organizations looking to digitize core procurement processes with standard compliance workflows.
                   </div>
                 </div>
 
@@ -179,12 +179,12 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Automated FMD compliance checks",
-                  "Basic RFQ management",
-                  "Up to 5 supplier connections",
-                  "Standard compliance reporting",
+                  "Basic S2P workflow automation",
+                  "Standard compliance verification",
+                  "Up to 10 supplier connections",
+                  "Basic procurement reporting",
                   "Email support",
-                  "Basic analytics dashboard",
+                  "Standard analytics dashboard",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -206,14 +206,14 @@ export default function PricingSection() {
               </div>
             </div>
 
-            {/* Professional Plan (Featured) */}
+            {/* S2P Professional Plan (Featured) */}
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-[#37322F] border border-[rgba(50,45,43,0.12)] border-[rgba(55,50,47,0.12)] overflow-hidden flex flex-col justify-start items-start gap-12">
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Professional</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">S2P Professional</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    The most popular choice for growing wholesalers who need comprehensive procurement automation.
+                    Most popular custom S2P solution for healthcare organizations requiring comprehensive automation with advanced compliance and supplier management features.
                   </div>
                 </div>
 
@@ -261,14 +261,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Everything in Essential",
+                  "Everything in S2P Foundation",
                   "Blind RFQ system",
                   "AI-powered quote analysis",
                   "Unlimited supplier connections",
                   "Advanced compliance automation",
                   "Priority support",
                   "Custom integrations",
-                  "Advanced analytics & reporting",
+                  "Advanced S2P analytics & reporting",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -288,14 +288,14 @@ export default function PricingSection() {
               </div>
             </div>
 
-            {/* Enterprise Plan */}
+            {/* Enterprise S2P Plan */}
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-white border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12">
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Enterprise</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Enterprise S2P</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Complete solution for large pharmaceutical wholesalers with complex procurement needs.
+                    Complete custom S2P development for large healthcare organizations with complex procurement needs. $10M+ projects with full platform customization and dedicated development teams.
                   </div>
                 </div>
 
@@ -334,22 +334,22 @@ export default function PricingSection() {
 
                 <div className="self-stretch px-4 py-[10px] relative bg-[#37322F] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0.20)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
-                  <div className="max-w-[108px] flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
-                    Contact sales
+                  <div className="max-w-[140px] flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
+                    Schedule consultation
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Everything in Professional",
-                  "Custom AI model training",
-                  "White-label platform option",
-                  "Dedicated account manager",
-                  "24/7 phone support",
-                  "Advanced security features",
-                  "Custom compliance workflows",
-                  "Multi-location support",
+                  "Everything in S2P Professional",
+                  "Custom AI model development",
+                  "White-label platform solution",
+                  "Dedicated development team",
+                  "24/7 premium support",
+                  "Enterprise security & compliance",
+                  "Custom workflow automation",
+                  "Multi-location enterprise deployment",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

@@ -9,19 +9,19 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is EaseMeds and who is it for?",
+    question: "What is EaseMed and who is it for?",
     answer:
-      "EaseMeds is an AI-powered co-pilot designed specifically for pharmaceutical wholesalers to automate compliance, streamline sourcing, and provide data-driven insights.",
+      "EaseMed is an AI-powered platform designed for healthcare organizations including hospitals, GPOs, distributors, wholesalers, and importers to automate 80% of procurement workload and optimize supply chain operations.",
   },
   {
     question: "How is this different from a generic procurement tool?",
     answer:
-      "Unlike generic tools, our AI is \"pharma-native.\" It has a deep, built-in understanding of critical industry regulations like FMD and GDP, and is designed to handle the unique complexities of pharmaceutical sourcing.",
+      "Unlike generic tools, our AI is \"healthcare-native.\" It has a deep understanding of healthcare regulations, compliance requirements, and supply chain complexities specific to hospitals, GPOs, and pharmaceutical organizations.",
   },
   {
     question: "How does the RFQ process protect my commercial interests?",
     answer:
-      "Our RFQ Agent sends quote requests to your suppliers blindly. This means suppliers only see a request from the EaseMeds platform, not from your company, preventing them from seeing who else you are approaching.",
+      "Our RFQ Agent sends quote requests to your suppliers blindly. This means suppliers only see a request from the EaseMed platform, not from your company, preventing them from seeing who else you are approaching.",
   },
   {
     question: "Is my compliance data secure?",
@@ -31,12 +31,12 @@ const faqData: FAQItem[] = [
   {
     question: "What is the process for building a custom solution?",
     answer:
-      "We work with you as a technology partner. We start with our powerful core platform and then build custom modules—like the RFQ and Analysis Agents—to solve your specific challenges. Contact our sales team to discuss a timeline.",
+      "We work with you as a technology partner to develop custom S2P (Source to Pay) solutions. We start with our core platform and build custom modules to automate 80% of your procurement workload. Contact our sales team to discuss a timeline for your $10M+ project.",
   },
   {
     question: "How does the AI handle pharmaceutical regulations?",
     answer:
-      "Our AI is specifically trained for pharmaceutical procurement, understanding FMD verification, GDP compliance, batch traceability, and patent expiration tracking. It automates compliance checks against official databases in real-time.",
+      "Our AI is specifically trained for healthcare procurement, understanding regulatory compliance, supply chain traceability, and operational requirements. It automates compliance checks, inventory management, and procurement workflows in real-time.",
   },
 ]
 

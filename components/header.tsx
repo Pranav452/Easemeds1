@@ -6,7 +6,7 @@ export function Header() {
       <div className="max-w-[1060px] mx-auto px-4">
         <nav className="flex items-center justify-between py-4">
           <div className="flex items-center space-x-8">
-            <div className="text-[#37322f] font-semibold text-lg">EaseMeds</div>
+            <div className="text-[#37322f] font-semibold text-lg">EaseMed</div>
             <div className="hidden md:flex items-righ space-x-6">
               <button className="text-[#37322f] hover:text-[#37322f]/80 text-sm font-medium">Products</button>
               <button className="text-[#37322f] hover:text-[#37322f]/80 text-sm font-medium">Solutions</button>

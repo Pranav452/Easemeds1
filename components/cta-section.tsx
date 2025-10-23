@@ -24,12 +24,12 @@ export default function CTASection() {
         <div className="w-full max-w-[586px] px-6 py-5 md:py-8 overflow-hidden rounded-lg flex flex-col justify-start items-center gap-6 relative z-20">
           <div className="self-stretch flex flex-col justify-start items-start gap-3">
             <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[56px] font-sans tracking-tight">
-              Ready to Build a Smarter Pharmaceutical Supply Chain?
+              Ready to Build a Smarter Healthcare Supply Chain?
             </div>
             <div className="self-stretch text-center text-[#605A57] text-base leading-7 font-sans font-medium">
-              Join the pharmaceutical wholesalers who are moving beyond generic tools
+              Join the healthcare organizations who are moving beyond generic tools
               <br />
-              and building a real competitive advantage with intelligent procurement automation.
+              and building a real competitive advantage with custom S2P automation solutions.
             </div>
           </div>
           <div className="w-full max-w-[497px] flex flex-col justify-center items-center gap-12">

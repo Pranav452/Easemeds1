@@ -19,8 +19,8 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "EaseMeds - Effortless Custom Contract Billing",
-  description: "Streamline your billing process with seamless automation for every custom contract, tailored by EaseMeds.",
+  title: "EaseMed - Healthcare Supply Chain Optimization",
+  description: "AI-powered healthcare solutions for supply chain optimization, procurement automation, and operational efficiency. Custom development for hospitals, GPOs, and pharmaceutical organizations.",
   generator: ''
 }
 

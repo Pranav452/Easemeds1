@@ -97,7 +97,7 @@ export default function LandingPage() {
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
                     <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      EaseMeds
+                      EaseMed
                     </div>
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 flex justify-start items-start hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
@@ -145,7 +145,7 @@ export default function LandingPage() {
                   <div className="w-full max-w-[506.08px] lg:w-[506.08px] text-center flex justify-center flex-col text-[rgba(55,50,47,0.80)] sm:text-lg md:text-xl leading-[1.4] sm:leading-[1.45] md:leading-[1.5] lg:leading-7 font-sans px-2 sm:px-4 md:px-0 lg:text-lg font-medium text-sm">
                     The market forces a bad choice: generic AI that risks your compliance, or middlemen who add costs.
                     <br className="hidden sm:block" />
-                    EaseMeds is the first pharma-native platform that gives you superior intelligence and complete control.
+                    EaseMed is the first healthcare-native platform that automates 80% of procurement workload and gives you superior intelligence with complete control.
                   </div>
                 </div>
               </div>
@@ -240,21 +240,21 @@ export default function LandingPage() {
                   {/* Feature Cards */}
                   <FeatureCard
                     title="Automated Compliance Engine"
-                    description="Our AI automatically handles FMD verification and GDP license checks in real-time, turning compliance from a risk into your competitive advantage."
+                    description="Our AI handles regulatory compliance verification in real-time across all healthcare standards, turning compliance from a risk into your competitive advantage."
                     isActive={activeCard === 0}
                     progress={activeCard === 0 ? progress : 0}
                     onClick={() => handleCardClick(0)}
                   />
                   <FeatureCard
                     title="AI-Powered Quote Analysis"
-                    description="Our Analysis Agent takes multiple supplier quotes and presents them in one clear dashboard, helping you make faster, smarter purchasing decisions."
+                    description="Our Analysis Agent transforms multiple supplier quotes into a single, clear dashboard, helping healthcare organizations make faster, smarter procurement decisions."
                     isActive={activeCard === 1}
                     progress={activeCard === 1 ? progress : 0}
                     onClick={() => handleCardClick(1)}
                   />
                   <FeatureCard
                     title="Direct Supplier Control"
-                    description="Connect directly with your trusted suppliers through our platform. No middlemen, no extra fees, just direct relationships and faster procurement."
+                    description="Connect directly with your trusted suppliers through our platform. No middlemen, no extra fees, just direct relationships and faster procurement for healthcare organizations."
                     isActive={activeCard === 2}
                     progress={activeCard === 2 ? progress : 0}
                     onClick={() => handleCardClick(2)}
@@ -301,7 +301,7 @@ export default function LandingPage() {
                       Built on a Foundation of Trust
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Built specifically for pharmaceutical wholesalers who demand
+                      Built specifically for healthcare organizations who demand
                       <br className="hidden sm:block" />
                       enterprise-grade security, complete compliance, and total peace of mind.
                     </div>
@@ -417,14 +417,14 @@ export default function LandingPage() {
                   </div>
 
                   <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-0 border-l border-r border-[rgba(55,50,47,0.12)]">
-                    {/* Top Left - Pharma-Native Intelligence */}
+                    {/* Top Left - Healthcare-Native Intelligence */}
                     <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Pharma-Native Intelligence
+                          Healthcare-Native Intelligence
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Our AI understands pharmaceutical regulations like FMD and GDP compliance, batch traceability, and patent expirations right out of the box.
+                          Our AI understands healthcare regulations, compliance requirements, supply chain traceability, and operational workflows right out of the box.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
@@ -444,7 +444,7 @@ export default function LandingPage() {
                           Blind RFQs, Clear Results
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Send blind RFQs to your trusted suppliers without revealing your identity. Get competitive quotes while protecting your business relationships.
+                          Send blind RFQs to your trusted suppliers without revealing your identity. Get competitive quotes while protecting your business relationships across healthcare supply chains.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden text-right items-center justify-center">
@@ -464,7 +464,7 @@ export default function LandingPage() {
                           Your Workflow, Automated
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          From license verification to quote comparison, everything happens automatically. Say goodbye to manual spreadsheets and endless email threads.
+                          From compliance verification to quote comparison, everything happens automatically. Automate 80% of your procurement workload and eliminate manual processes across healthcare operations.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden justify-center items-center relative bg-transparent">
@@ -483,7 +483,7 @@ export default function LandingPage() {
                           Secure and Auditable
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          All your compliance documents are stored in a secure, encrypted vault with complete audit trails for every single transaction.
+                          All your compliance documents and healthcare data are stored in a secure, encrypted vault with complete audit trails for every transaction.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden items-center justify-center relative">

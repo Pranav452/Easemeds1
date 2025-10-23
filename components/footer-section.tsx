@@ -6,10 +6,10 @@ export default function FooterSection() {
         <div className="h-auto p-4 md:p-8 flex flex-col justify-start items-start gap-8">
           {/* Brand Section */}
           <div className="self-stretch flex justify-start items-center gap-3">
-            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">EaseMeds</div>
+            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">EaseMed</div>
           </div>
           <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
-            Your AI Co-Pilot for Pharma Procurement
+            Your AI Co-Pilot for Healthcare Operations
           </div>
 
           {/* Social Media Icons */}
